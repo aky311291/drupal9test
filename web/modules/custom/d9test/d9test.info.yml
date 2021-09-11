@@ -1,0 +1,6 @@
+name: 'd9test'
+type: module
+description: 'Alter system config form'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'

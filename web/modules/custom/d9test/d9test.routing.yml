@@ -1,0 +1,7 @@
+d9test.extended_site_information_form:
+  path: '/d9test/form/extended_site_information'
+  defaults:
+    _form: '\Drupal\d9test\Form\ExtendedSiteInformationForm'
+    _title: 'ExtendedSiteInformationForm'
+  requirements:
+    _access: 'TRUE'

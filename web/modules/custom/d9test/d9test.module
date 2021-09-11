@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Contains d9test.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function d9test_help($route_name, RouteMatchInterface $route_match)
+{
+    switch ($route_name) {
+            // Main module help for the d9test module.
+        case 'help.page.d9test':
+            $output = '';
+            $output .= '<h3>' . t('About') . '</h3>';
+            $output .= '<p>' . t('Alter system config form') . '</p>';
+            return $output;
+
+        default:
+    }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function d9test_theme()
+{
+    return [
+        'd9test' => [
+            'render element' => 'children',
+        ],
+    ];
+}

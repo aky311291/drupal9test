@@ -1,0 +1,13 @@
+{
+    "name": "d9test",
+    "type": "drupal-module",
+    "description": "Alter system config form",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/d9test",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/d9test",
+        "source": "http://cgit.drupalcode.org/d9test",
+    },
+}
