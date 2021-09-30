@@ -1,0 +1,13 @@
+{
+    "name": "ajaxform",
+    "type": "drupal-module",
+    "description": "Form demonstartion with ajax pop-up model",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/ajaxform",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/ajaxform",
+        "source": "http://cgit.drupalcode.org/ajaxform",
+    },
+}
