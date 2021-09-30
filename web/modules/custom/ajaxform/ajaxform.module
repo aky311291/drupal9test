@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains ajaxform.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function ajaxform_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the ajaxform module.
+    case 'help.page.ajaxform':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Form demonstartion with ajax pop-up model') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function ajaxform_theme() {
+  return [
+    'ajaxform' => [
+      'render element' => 'children',
+    ],
+  ];
+}

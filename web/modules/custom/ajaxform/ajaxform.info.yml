@@ -1,0 +1,6 @@
+name: 'ajaxForm'
+type: module
+description: 'Form demonstartion with ajax pop-up model'
+core: 8.x
+core_version_requirement: ^8 || ^9
+package: 'Custom'

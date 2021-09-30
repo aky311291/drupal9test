@@ -1,0 +1,17 @@
+ajaxform.ajax_model_popup_form:
+  path: 'article-add'
+  defaults:
+    _form: '\Drupal\ajaxform\Form\AjaxModelPopupForm'
+    _title: 'AjaxModelPopupForm'
+  requirements:
+    _access: 'TRUE'
+
+ajaxform.open_modal_form:
+  path: '/admin/config/modal_form'
+  defaults:
+    _title: 'Modal Form'
+    _controller: '\Drupal\ajaxform\Controller\ModalFormExampleController::openModalForm'
+  requirements:
+    _permission: 'administer site configuration'
+  options:
+    _admin_route: TRUE
